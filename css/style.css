@@ -1,7 +1,7 @@
 :root {
   --background-color: rgb(0, 0, 0);
-  --border-color: rgba(255, 255, 255, 0.377);
-  --highlight-color: rgb(126, 87, 194);
+  --border-color: #ffffff60;
+  --highlight-color: rgb(252, 227, 196)
 }
 
 body {
@@ -171,7 +171,7 @@ main>article>.article-nav-section {
 }
 
 main>article:first-child>.article-image-section {
-  background-image: url(../assets/Article/Elephant/IMG_1213.HEIC);
+  background-image: url(../assets/Article/Elephant/Final/Elephant\ \(1\).JPG);
 }
 
 main>article:nth-child(2)>.article-image-section {
@@ -403,6 +403,11 @@ main>article .yt-link>i {
 #logo {
   border-radius: 40px;
 }
+
+.texte-titre:hover {
+  color: rgb(252, 227, 196);
+}
+
 
 footer {
   font-size: large;
