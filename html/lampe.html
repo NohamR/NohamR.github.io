@@ -1,0 +1,192 @@
+<html>
+
+<head>
+    <title>Lampe</title>
+    <link rel="shortcut icon" href="../assets/icon/Lampe/Lampe.ico">
+    <link rel="stylesheet" href="../css/lampe.css">
+    <script src="../js/lampe.js"></script>
+
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        .mySlides1,
+        .mySlides2 {
+            display: none
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            max-height: 400px;
+            position: relative;
+            margin: auto;
+        }
+
+
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a grey background color */
+        .prev:hover,
+        .next:hover {
+            background-color: #f1f1f1;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav data-toggled="false" data-transitionable="false">
+        <div id="nav-logo-section" class="nav-section">
+            <a href="../index.html">
+                <img src="../assets/icon.ico" alt="logo" height="110px" width="110px" id="logo"></i>
+            </a>
+        </div>
+
+        <div id="nav-mobile-section">
+
+            <div id="nav-social-section" class="nav-section">
+                <a href="https://www.instagram.com/no.0ham/">
+                    <img src="../assets/social/insta.png" alt="insta" width="50px" height="50px">
+                </a>
+                <a href="https://twitter.com/Noo0ham">
+                    <img src="../assets/social/twitter.png" alt="Twitter" width="50px" height="50px">
+                </a>
+                <a href="https://github.com/NohamR">
+                    <img src="../assets/social/github.png" alt="github" width="50px" height="50px">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <article>
+            <div class="article-title-section">
+                <h1 class="texte-titre">Lampe</h1>
+            </div>
+        </article>
+
+
+        <div class="slideshow-container">
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (1).PNG" alt="img1" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (2).PNG" alt="img2" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (3).PNG" alt="img3" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (4).PNG" alt="img4" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (5).PNG" alt="img5" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (6).PNG" alt="img6" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (7).PNG" alt="img7" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (8).PNG" alt="img8" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (9).PNG" alt="img9" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (10).PNG" alt="img10" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (11).PNG" alt="img11" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (12).PNG" alt="img12" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (13).PNG" alt="img13" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (14).PNG" alt="img14" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (15).PNG" alt="img15" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (16).PNG" alt="img16" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+                <img src="../assets/Article/Lampe/Final/Lampe (17).PNG" alt="img17" width="auto" height="400px">
+            </div>
+            <div class="mySlides1">
+              <img src="../assets/Article/Lampe/Final/Lampe (18).PNG" alt="img18" width="auto" height="400px">
+          </div>
+
+
+
+
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+
+
+        <script>
+            let slideIndex = [1, 1];
+            let slideId = ["mySlides1", "mySlides2"]
+            showSlides(1, 0);
+            showSlides(1, 1);
+
+            function plusSlides(n, no) {
+                showSlides(slideIndex[no] += n, no);
+            }
+
+            function showSlides(n, no) {
+                let i;
+                let x = document.getElementsByClassName(slideId[no]);
+                if (n > x.length) { slideIndex[no] = 1 }
+                if (n < 1) { slideIndex[no] = x.length }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex[no] - 1].style.display = "block";
+            }
+        </script>
+
+    </main>
+
+    <footer>
+        Dev by √(noham)² with &#10084;
+    </footer>
+</body>
+
+</html>
