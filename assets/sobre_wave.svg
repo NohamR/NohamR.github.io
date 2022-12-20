@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="601" height="882" viewBox="0 0 601 882">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_824" data-name="Retângulo 824" width="601" height="882" transform="translate(-16772 9003)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="sobre_wave" transform="translate(16772 -9003)" clip-path="url(#clip-path)">
+    <path id="Caminho_34220" data-name="Caminho 34220" d="M3177.21,1599.533c120.844,158.083,4.294,211.407,141.7,319.359,147.731,116.059,352.315-36.523,453.275,152.641,85.684,160.54,135.821,211.545,315.592,256.708,84.2,21.156,278.9,337.317,522.78,202.377v-1147.2H2968.841C2975.386,1518.57,3108.454,1509.591,3177.21,1599.533Z" transform="matrix(0.899, 0.438, -0.438, 0.899, -18853.398, 6009.087)" fill="#114bad"/>
+  </g>
+</svg>

@@ -1,86 +1,76 @@
-<html>
+<html lang="en">
 
 <head>
-  <title>Nohamart</title>
-  <link rel="shortcut icon" href="assets/icon.ico">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/index.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="assets/icon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="NohamR's web site">
+    <link rel="apple-touch-icon" href="/logo192.png">
+    <title>NohamR</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="index.js"></script>
 </head>
 
 <body>
 
-  <nav data-toggled="false" data-transitionable="false">
-    <div id="nav-logo-section" class="nav-section">
-      <a href="index.html">
-        <img src="assets/icon.ico" alt="logo" height="110px" width="110px" id="logo"></i>
-      </a>
-    </div>
 
-    <div id="nav-mobile-section">
-      <div id="nav-link-section" class="nav-section">
-        <a href="html/about.html">ABOUT</a>
-        <a href="html/work.html">WORK</a>
-      </div>
 
-      <div id="nav-social-section" class="nav-section">
-        <a href="https://www.instagram.com/no.0ham/">
-          <img src="assets/social/insta.png" alt="insta" width="50px" height="50px">
-        </a>
-        <a href="https://twitter.com/Noo0ham">
-          <img src="assets/social/twitter.png" alt="Twitter" width="50px" height="50px">
-        </a>
-        <a href="https://github.com/NohamR">
-          <img src="assets/social/github.png" alt="github" width="50px" height="50px">
-        </a>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar">
+        <a href="" class="logo">HOME</a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://nohamr.github.io/hub">Hub</a></li>
+                <li><a href="https://nohamr.github.io/nohamart">Nohamart</a></li>
+            </ul>
+        </div>
 
-  <main>
-    <article data-index="0" data-status="active">
-      <div class="article-image-section article-section"></div>
-      <div class="article-description-section article-section">
-        <p>Un simple éléphant fait en poterie puis émaillé.</p>
-      </div>
-      <div class="article-title-section article-section">
-        <a href="html/elephant.html">
-          <h2 class="texte-titre">Elephant</h2>
-        </a>
-      </div>
-      <div class="article-nav-section article-section">
-        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
-          <img src="assets/web/arrow-left.png" alt="arrow-left"> </button>
-        <button class="article-nav-button" type="button" onclick="handleRightClick()">
-          <img src="assets/web/arrow-right.png" alt="arrow-right"> </button>
-        </button>
-      </div>
-    </article>
 
-    <article data-index="1" data-status="inactive">
-      <div class="article-image-section article-section"></div>
-      <div class="article-description-section article-section">
-        <p>Une lampe incrustée dans un morceau de bois travaillé, poncé, vernis et gravé à l'arc électrique.</p>
-      </div>
-      <div class="article-title-section article-section">
-        <a href="html/lampe.html">
-          <h2 class="texte-titre">Lampe</h2>
-        </a>
-      </div>
-      <div class="article-nav-section article-section">
-        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
-          <img src="assets/web/arrow-left.png" alt="arrow-left"> </button>
-        <button class="article-nav-button" type="button" onclick="handleRightClick()">
-          <img src="assets/web/arrow-right.png" alt="arrow-right"> </button>
-        </button>
-      </div>
-    </article>
+        <img src="assets/burger.png" alt="menu hamburger" class="menu-hamburger">
 
-  </main>
+        <div class="compteur-content">
+            <img src="assets/oeuil.png" alt="oeuil">
+            <h1 id="compteur-de-vues" class="compteur-de-vues">?</h1>
+        </div>
 
-  <footer>
-    Dev by √(noham)² with &#10084;
-  </footer>
+
+        <div class="main">
+            <div class="square">
+                <div class="square_content">
+                    <h1>
+                        Welcome on my page !
+                    </h1>
+                    <h2>
+                        I'm √(noham)² but you can call my NohamR
+                    </h2>
+                    <div class="icons">
+                        <a href="https://github.com/NohamR"><img class="icon" src="assets/social/github.png"
+                                alt="github"></a>
+                        <a href="https://www.instagram.com/no.0ham/"><img class="icon" src="assets/social/insta.png"
+                                alt="instagram"></a>
+                        <a href="https://twitter.com/Noo0ham"><img class="icon" src="assets/social/twitter.png"
+                                alt="twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </nav>
 </body>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+    const squareContent = document.querySelector(".square_content")
+    const compteur = document.querySelector(".compteur-content")
 
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+        squareContent.classList.toggle('mobile-menu')
+        compteur.classList.toggle('mobile-menu')
+    })
+</script>
 
 </html>
