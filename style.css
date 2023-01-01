@@ -301,6 +301,10 @@ header {
         margin-right: auto;
     }
 
+    .discord h1, .discord h2 {
+        display: none;
+    }
+
     .compteur {
         position: absolute;
         bottom: 20px;
