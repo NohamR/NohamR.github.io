@@ -37,9 +37,21 @@
                     </h2>
                     <br>
                     <div class="icons">
-                        <a href="https://github.com/NohamR" target="_blank"><img class="icon" src="assets/social/github.png" alt="github"></a>
-                        <a href="https://www.instagram.com/no.0ham/" target="_blank"><img class="icon" src="assets/social/insta.png" alt="instagram"></a>
-                        <a href="https://twitter.com/Noo0ham" target="_blank"><img class="icon" src="assets/social/twitter.png" alt="twitter"></a>
+                        <a href="https://github.com/NohamR" target="_blank"><img class="icon"
+                                src="assets/social/github.png" alt="github"></a>
+                        <a href="https://www.instagram.com/no.0ham/" target="_blank"><img class="icon"
+                                src="assets/social/insta.png" alt="instagram"></a>
+                        <a href="https://twitter.com/Noo0ham" target="_blank"><img class="icon"
+                                src="assets/social/twitter.png" alt="twitter"></a>
+                    </div>
+                    <br>
+                    <div class="discord">
+                        <h1 id="texte-activities" onclick="clicktxt()">What I'm doing at the moment : <br>'Click'</h1>
+
+                        <h2 id="stillindev">(still in dev)</h2>
+                        <iframe id="activities"
+                            src="https://lanyard.cnrad.dev/api/746662829834108989?idleMessage=I'm probably not on the cumputer&?theme=light&bg=777777"
+                            frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -65,6 +77,28 @@
         squareContent.classList.toggle('mobile-menu')
         compteur.classList.toggle('mobile-menu')
     })
+</script>
+
+<!-- <script>
+    document.getElementById('texte-activities').addEventListener('click', function () {
+        var activities = document.getElementById('activities');
+        if (activities.style.display === 'none') {
+            activities.style.display = 'block';
+        } else {
+            activities.style.display = 'none';
+        }
+    });
+</script> -->
+
+<script>
+    let activities = document.getElementById('activities');
+    let txtactivities = document.getElementById('texte-activities')
+    let stillindev = document.getElementById('stillindev')
+    function clicktxt() {
+        txtactivities.style.display = 'none';
+        stillindev.style.display = 'none';
+        activities.style.display = 'block';
+    }
 </script>
 
 </html>
