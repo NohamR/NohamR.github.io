@@ -8,7 +8,7 @@
             <key>FullScreen</key>
             <true/>
             <key>Icon</key>
-			<data>
+			<!-- <data>
             iVBORw0KGgoAAAANSUhEUgAAAcMAAAHDCAYAAABYhnHeAAAAAXNS
 			R0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAA
 			AAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAABw6ADAAQAAAABAAAB
@@ -1370,7 +1370,7 @@
 			H2uzrBcbMg3MBqZDpo4ed1dBEXu12aIQ2Bpe6rvepsLExERYtGBB
 			ePKpTbRsOkGfCZofli1dBEkPJdbASnrE4gtf/Lbf/NSHY/T/Ayrd
 			8DSo1YqdAAAAAElFTkSuQmCC
-            </data>
+            </data> -->
             <key>IgnoreManifestScope</key>
             <false/>
             <key>IsRemovable</key>
