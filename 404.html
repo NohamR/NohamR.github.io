@@ -10,7 +10,20 @@
     <link rel="apple-touch-icon" href="/logo192.png">
     <title>404</title>
     <!-- <link href="style.css" rel="stylesheet"> -->
-    <script src="index2.js"></script>
+    <script>
+        var counter = document.getElementById('conteur-de-vues')
+
+const updateCounter = async () => {
+    const data = await fetch('https://api.countapi.xyz/hit/nohamr-counter/error404')
+    const count = await data.json()
+    console.log(count.value)
+    document.getElementById("compteur-de-vues").innerHTML = count.value
+    document.getElementById("compteur-de-vues").style.filter = 'blur(0)'
+};
+
+updateCounter();
+
+    </script>
 </head>
 
 <body>
