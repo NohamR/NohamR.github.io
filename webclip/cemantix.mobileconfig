@@ -1,0 +1,45 @@
+<?xml version=”1.0” encoding=”UTF-8”?>
+<!DOCTYPE plist PUBLIC “-//Apple//DTD PLIST 1.0//EN” “http://www.apple.com/DTDs/PropertyList-1.0.dtd”>
+<plist version=”1.0”>
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IgnoreManifestScope</key>
+            <false/>
+            <key>IsRemovable</key>
+            <false/>
+            <key>Label</key>
+            <string>Cemantix</string>
+            <key>Precomposed</key>
+            <false/>
+            <key>URL</key>
+            <string>https://cemantix.certitudes.org/</string>
+            <key>PayloadIdentifier</key>
+            <string>Cemantix</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadOrganization</key>
+			<string>Noham's App</string>
+            <key>PayloadDescription</key>
+			<string>Thanks for using √(noham)² Installer !</string>
+            <key>PayloadUUID</key>
+            <string>1d6d6912-708e-441a-9272-526ef05bbe3c</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Cematnix's Installer</string>
+    <key>PayloadIdentifier</key>
+    <string>Cemantix</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>289fc7fc-2870-479d-b30f-8d0592b7ef04</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
